@@ -1,0 +1,16 @@
+{
+  "name": "right_learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "sass": "^1.60.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "watch": "npx sass --watch assets/new_theme/assets/scss/main.scss:assets/new_theme/assets/css/style.css assets/new_theme/assets/scss/main_rtl.scss:assets/new_theme/assets/css/style_rtl.css",
+    "build": "npx sass assets/new_theme/assets/scss/main.scss:assets/new_theme/assets/css/style.css assets/new_theme/assets/scss/main_rtl.scss:assets/new_theme/assets/css/style_rtl.css"
+  },
+  "author": "",
+  "license": "ISC"
+}

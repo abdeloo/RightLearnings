@@ -1,0 +1,118 @@
+.swal2-title {
+  font-family: "Noto Kufi Arabic", serif !important;
+}
+
+.academic-shape-2 {
+  right: unset;
+  left: 0;
+}
+
+.header-top-icon i {
+  margin-left: 10px;
+  margin-right: unset;
+}
+
+a:first-of-type::before {
+  position: unset;
+}
+
+.country-span:before {
+  width: 1px !important;
+}
+
+.header-user-login span::after {
+  width: 1px !important;
+}
+
+.header-social {
+  padding-right: 15px;
+}
+
+.header-user-language span::before {
+  position: unset;
+}
+
+.main-menu ul li .sub-menu {
+  text-align: right;
+}
+
+div.mean-container .mean-nav ul li a {
+  text-align: right;
+  padding-left: 0px;
+}
+div.mean-container .mean-nav ul li a.mean-expand {
+  right: unset;
+  left: 0;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  float: right;
+  padding-right: unset;
+  padding-left: 0.5rem;
+}
+
+.cartmini__close {
+  left: 20px;
+  right: unset;
+}
+.cartmini__del {
+  right: unset;
+  left: 10px;
+}
+
+.notificationmini__info {
+  right: unset;
+  left: 10px;
+}
+.notificationmini__info a {
+  float: right;
+}
+.notificationmini__info a i {
+  float: right;
+  padding-top: 3px;
+  padding-left: 5px;
+}
+.notificationmini__thumb {
+  margin-right: unset;
+  margin-left: 15px;
+}
+
+.feedback-wrapper {
+  padding-right: 60px;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "\f104" !important;
+}
+
+.product-name {
+  text-align: right !important;
+}
+
+.payment-method .accordion-button {
+  padding-right: 25px !important;
+}
+
+.student-profile-sidebar .nav li button {
+  text-align: right !important;
+}
+
+.instructors-footer span {
+  margin-left: 25px;
+  margin-right: unset;
+}
+
+.testimoni-quotes img {
+  left: 30px;
+  right: unset;
+}
+
+.xzoom-class-detalis i {
+  padding-left: 10px;
+}
+
+.cartmini__inner i {
+  margin-left: 5px;
+}
+
+/*# sourceMappingURL=style_rtl.css.map */

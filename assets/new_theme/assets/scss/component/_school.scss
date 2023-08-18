@@ -1,0 +1,39 @@
+@use "../abstract" as *;
+
+.fw-semibold {
+  font-weight: 500 !important;
+}
+.lh-lg {
+  line-height: 1.75 !important;
+}
+#tbl_school
+{
+  .table>:not(caption)>*>* {
+    padding-top: 10px;
+  }
+}
+.tab-pane {
+  table {
+    tr {
+      border-style: hidden;
+    }
+
+  }
+}
+  .ki-duotone  {
+    font-family: 'keenicons-duotone' !important;
+  }
+  .ki-duotone  {
+    font-family: 'keenicons-duotone' !important;
+  }
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+.student-profile-enroll ul {
+  border-bottom: none;
+  li{
+    line-height: 60px;
+  }
+}
+

@@ -1,0 +1,9 @@
+{
+	"require": {
+		"phpunit/phpunit": "3.7.24",
+		"phing/phing": "dev-master",
+		"bigbluebutton/bigbluebutton-api-php": "~2.0.0",
+		"pusher/pusher-push-notifications": "^1.1",
+		"tecnickcom/tc-lib-barcode": "^1.15"
+	}
+}

@@ -1,0 +1,18 @@
+@import url(font/notokufiarabic.css);
+
+/** * {
+    font-family: 'Noto Kufi Arabic', serif;  //mona to define .ki-duotone 
+}**/
+
+body, h1, h2, h3, h4, h5, h6 {
+        font-family: 'Noto Kufi Arabic', serif !important;
+
+}
+.page-header .navbar .navbar-nav > li > a  {
+        font-family: 'Noto Kufi Arabic', serif !important;
+
+}
+.page-header .navbar .navbar-nav .dropdown-menu > li > a  {
+        font-family: 'Noto Kufi Arabic', serif !important;
+
+}
