@@ -3,8 +3,8 @@
     <!--begin::Heading-->
     <div class="pb-10 pb-lg-15">
         <!--begin::Title-->
-        <h2 class="fw-bolder d-flex align-items-center text-dark"><?= Lang::__('mandatory_details_for_the_center')?>
-        <i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip" title="Billing is issued based on your selected account type"></i></h2>
+        <h2 class="fw-bolder d-flex align-items-center text-dark"><i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip" title="Billing is issued based on your selected account type"></i> &nbsp;<?= Lang::__('mandatory_details_for_the_center')?>
+        </h2>
         <!--end::Title-->
         <?if(isset($Obj)){?>
             <!--begin::Notice-->

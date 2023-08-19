@@ -14,7 +14,7 @@
     <!--begin::Repeater-->
     <div id="branch_repeater">
         <!--begin::Form group-->
-        <div class="form-group">
+        <div class="form-group repeater">
             <div data-repeater-list="Branches">
                 <?php $Branches = ORM::factory('Study_Majors')->where('college','=',NULL)->find_all();
                     $Branches_view = View::factory("new_admin/centers/repeaters/items_repeater");
@@ -34,15 +34,20 @@
                         echo $Branches_view;
                     } ?>
             </div>
-        </div>
-        <!--end::Form group-->
-
-        <!--begin::Form group-->
+       
         <div class="form-group mt-5">
             <a href="javascript:;" data-repeater-create class="btn btn-light-primary">
                 <i class="la la-plus"></i><?= Lang::__('add_new')?>
             </a>
         </div>
+       
+        </div>
+
+       
+        <!--end::Form group-->
+
+        <!--begin::Form group-->
+        
         <!--end::Form group-->
     </div>
     <!--end::Repeater-->

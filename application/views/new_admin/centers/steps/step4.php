@@ -14,7 +14,7 @@
     <!--begin::Repeater-->
     <div id="grade_repeater">
         <!--begin::Form group-->
-        <div class="form-group">
+        <div class="repeater">
             <div data-repeater-list="Plans">
                 <?php $Plans = ORM::factory('Study_Plans')->where('program','=',NULL)->find_all();
                       $Stages = ORM::factory('Study_Programs')->where('is_deleted','=',NULL)->find_all();
@@ -42,18 +42,46 @@
                         echo $Grades_view;
                     } ?>
             </div>
-        </div>
-        <!--end::Form group-->
-
-        <!--begin::Form group-->
-        <div class="form-group mt-5">
+            <div class="form-group mt-5">
             <a href="javascript:;" data-repeater-create class="btn btn-light-primary">
                 <i class="la la-plus"></i><?= Lang::__('add_new')?>
             </a>
         </div>
+        </div>
+        <!--end::Form group-->
+
+        <!--begin::Form group-->
+        
         <!--end::Form group-->
     </div>
     <!--end::Repeater-->
+<script>
+   $(document).ready(function () {
+        // 'use strict';
+
+        // $('.repeater').repeater({
+        //     defaultValues: {
+        //         // 'textarea-input': 'foo',
+        //         // 'text-input': 'bar',
+        //         // 'select-input': 'B',
+        //         // 'checkbox-input': ['A', 'B'],
+        //         // 'radio-input': 'B'
+        //     },
+        //     show: function () {
+        //         $(this).slideDown();
+        //     },
+        //     hide: function (deleteElement) {
+        //         if(confirm('Are you sure you want to delete this element?')) {
+        //             $(this).slideUp(deleteElement);
+        //         }
+        //     },
+        //     ready: function (setIndexes) {
+
+        //     }
+        // });
+    });
+
+</script>
 
 </div>
 <!--end::Wrapper-->
